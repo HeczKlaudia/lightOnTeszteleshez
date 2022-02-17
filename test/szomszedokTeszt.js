@@ -13,7 +13,9 @@ QUnit.module("szomszedokValtoztatasa()", (hook) => {
     assert.ok(typeof szomszedokValtoztatasa, "Függvény!");
   });
 
-  /* test("elemek felkapcsolva", (assert) => {
+  test("középső lámpát kapcsoljuk", (assert) => {});
+
+  test("elemek felkapcsolva", (assert) => {
     for (let i = 0; i < 9; i++) {
       lampak[i].elem.click();
       if (i == 5) {
@@ -22,5 +24,5 @@ QUnit.module("szomszedokValtoztatasa()", (hook) => {
         assert.equal(lampak[i].dataId, 1, "bal felső elem felkapcsolva");
       }
     }
-  }); */
+  });
 });
